@@ -1,0 +1,14 @@
+.wrap {
+  position: relative;
+  margin: 10rpx 0;
+}
+.wrap image{
+  border-radius: 10rpx;
+  width: 100%;
+}
+.wrap text {
+  position: absolute;
+  left: 10rpx;
+  font: bold 20px/1.5 '微软雅黑';
+  color: #fff;
+}

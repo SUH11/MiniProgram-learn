@@ -1,0 +1,9 @@
+<!--pages/detail/detail.wxml-->
+<view wx:if='{{!isLoading}}'>
+  <video wx:if='{{detail.is_play}}' src='{{"https://data.miaov.com/h5-view/v/movie/play?url=" + detail.play_url}}'></video>
+  <view class='wrap'>
+    <view class='title'>{{detail.title}}</view>
+    <view class='text'>{{detail.genres}}/{{detail.subtype}} {{detail.countries}}</view>
+    <view class='summary'>{{detail.summary}}</view>
+  </view>
+</view>

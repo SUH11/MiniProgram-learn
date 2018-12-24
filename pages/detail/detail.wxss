@@ -1,0 +1,13 @@
+/* pages/detail/detail.wxss */
+video {
+  width: 100%;
+}
+.wrap {
+  padding: 20rpx;
+}
+.text {
+  font: 12px/1.5 '微软雅黑';
+}
+.summary {
+  font: 13px/1.5 '微软雅黑';
+}
